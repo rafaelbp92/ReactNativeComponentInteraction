@@ -1,0 +1,3 @@
+rootProject.name = 'ReactNativeComponentInteraction'
+
+include ':app'
