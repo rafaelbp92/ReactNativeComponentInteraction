@@ -10,9 +10,13 @@ const Painel = props => (
 		<Entrada 
 			num1={props.num1} 
 			num2={props.num2}
+			atualizaValor={props.atualizaValor}
 		/>
-		<Operacao />
-		<Comando />
+		<Operacao 
+			operacao={props.operacao} 
+			atualizarOperacao={props.atualizarOperacao}
+		/>
+		<Comando acao={props.calcular}/>
 	</View>	
 );
 
